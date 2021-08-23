@@ -1,0 +1,6 @@
+init_config:
+
+instances:
+  - file_pattern: "/var/backups/nightly/*.tar.gz"
+    name: "wordpress-nightly"
+    min_collection_interval: 300
